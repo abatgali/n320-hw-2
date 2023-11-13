@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from '@/components/HeroImage'
 import EventCard from '@/components/eventCard'
 import Link from 'next/link'
+import BackToHome from '@/components/BackToHome'
 
 export default function Events() {
   return (
@@ -23,6 +24,7 @@ export default function Events() {
             <EventCard imageSource='/wineanddine.jpg' eventName='Some exciting new show near you'
             backgroundPosition='center center'/>
           </Link>
+        <BackToHome/>
         </div>
     </>
   )

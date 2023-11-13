@@ -9,7 +9,8 @@ export default function Home() {
       <div className={`${styles.home}`}>
         <HeroImage
           imageSource="./soccer.jpg"
-          header="Join our Live Soccer Matches"
+          header="Join our Live Events"
+          height='400px'
         />
         <div className="h-auto text-center my-12">
           <h1>Watch Live</h1>
@@ -19,7 +20,7 @@ export default function Home() {
             <ContentTile url='https://images.unsplash.com/photo-1517747614396-d21a78b850e8?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2NlcnxlbnwwfHwwfHx8MA%3D%3D' height='600px'/>
           </div>
         </div>
-        <HeroImage imageSource="./soccer2.jpg" header="Follow Our Journey" />
+        <HeroImage imageSource="./soccer2.jpg" header="Follow Our Journey" height="600px" backgroundPosition='top right'/>
       </div>
     </>
   );
